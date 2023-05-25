@@ -2,5 +2,4 @@
 
 ```
 wget -qO- https://raw.githubusercontent.com/Swrich/besttrace/main/main.sh | bash
-
 ```
