@@ -8,7 +8,7 @@ download_file() {
     if [ ! -f "bestTrace.zip" ]; then
         wget -c -O bestTrace.zip $URL
     fi
-    unzip bestTrace.zip -d $FILE_NAME_SPACE
+    unzip -o bestTrace.zip -d $FILE_NAME_SPACE
     rm bestTrace.zip
     cd $FILE_NAME_SPACE
     if [ "${ARCH}" == "i686" ]; then
