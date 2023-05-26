@@ -32,6 +32,7 @@ run() {
 }
 
 download_file
+clear
 run
   
   
