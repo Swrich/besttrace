@@ -5,9 +5,7 @@ FILE_NAME_SPACE="bestTrace"
 list=('广州电信,14.215.116.1' '厦门电信,117.28.254.129')
 
 download_file() {
-    if [ ! -f "bestTrace.zip" ]; then
-        wget -c -O bestTrace.zip $URL
-    fi
+    wget -c -O bestTrace.zip $URL
     unzip -o bestTrace.zip -d $FILE_NAME_SPACE
     rm bestTrace.zip
     cd $FILE_NAME_SPACE
