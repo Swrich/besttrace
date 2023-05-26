@@ -2,7 +2,7 @@
 URL="https://cdn.ipip.net/17mon/besttrace4linux.zip"
 ARCH=$(uname -m)
 FILE_NAME_SPACE="bestTrace"
-list=('广州电信,14.215.116.1' '厦门电信,117.28.254.129')
+list=('广州电信,14.215.116.1' '广州联通,157.148.98.30' '广州移动,157.148.98.30')
 
 download_file() {
     wget -c -O bestTrace.zip $URL
